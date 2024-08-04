@@ -4,7 +4,7 @@ import "./index.css";
 import { PokemonCards } from "./assets/PokemonCards";
 
 export const Pokemon = () => {
-  const API = "https://pokeapi.co/api/v2/pokemon?limit=600";
+  const API = "https://pokeapi.co/api/v2/pokemon?limit=124";
   const [pokemon, setPokemon] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
